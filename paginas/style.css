@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*cuadro de imagenes*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Buscar {
+    padding: 0px 60px;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color:  #FFFFFF;
+    font-size: 17px;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nosotros {
+    background-image:url(imagenes/a1-01.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: 0;
+    justify-content: space-between;
+}
+
+/*Movie tv */
+.logo {
+    color: #f44dfd;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+/*Barra de menu */
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;
+}
+
+
+.menu .navbar ul li a:hover {
+    color: #f44dfd;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    flex-basis: 50%;
+}
+
+.logo {
+    color: #f44dfd;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/*Compra tu pelicula favorita*/
+.header-txt h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Racing Sans One', cursive;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+/*Publicidad*/
+
+.ads2, .ads3 {
+    width: 110px;
+    position: fixed;
+    top:140px;
+    
+}
+
+.ads2{
+    left:10px;
+}
+
+.ads3 {
+    right: 10px;
+
+}
+
+.cerrar-ads{
+    position: absolute;
+    top:0;
+    right:0;
+    z-index:1;
+    cursor: pointer;
+}
+
+.ads2 .hiden, .ads3 .hiden {
+    display: none;
+}
+
+.cerrar-pub {
+   position:absolute;
+   top: 0;
+   right: 0;
+   z-index:1;
+   cursor: pointer;
+}
+
+.publicidad-1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.publicidad{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads-superbanner {
+    display: flex;
+    width: 100%;
+}
+/*Bienvenidos*/
+
+.bienvenidos {
+    display: flex;
+}
+
+.bienvenidos-1{
+    background-image: url(imagenes/a2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 50%;
+}
+
+.bienvenidos-2 {
+    width: 50%;
+    padding: 100px 150px 100px 100px;
+    background-color: #191919;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 100px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family:'Racing Sans One', cursive;
+    margin-bottom:20px;
+}
+
+p {
+    font-size: 16px;
+    color:#afafaf;
+    margin: 25px 0;
+}
+
+.b1 {
+    color: #f44dfd;
+}
+/*Mision Vision Logros*/
+
+.seccion .container {
+    display: flex;
+}
+
+
+.seccion-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #1B1726;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon {
+    color: #FFFFFF;
+}
+
+.card:hover{
+    background-color:#261948;
+    transition: 0.4s ease;
+}
+.card .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 28px;
+    color:#f44dfd;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5 ;
+    color:#afafaf;
+}
+
+
+.text-center {
+    color: #191919;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.contact {
+    padding: 150px 300px;
+}
+.contact-content {
+    background-color: #2A223A;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-1:hover {
+    background-color: #f44dfd;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+input {
+    padding: 18px 25px;
+    background-color: #3F3456;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color:  #FFFFFF;
+    font-size: 17px;
+}
+
+
+::placeholder {
+    color: #E0E0E0;
+    font-size: 17px;
+}
+
+.btn-3 {
+    background-color: #f44dfd;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link ul li > a {
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.link ul li > a:hover {
+    color: #f44dfd;
+}
+
+.Footer .container {
+    display: flex;
+}
+
+.Footer-1 .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.Footer-2 {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    cursor: pointer;
+}
+ 
+
+
+.Footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+
+
+.Footer-2 p {
+    margin: 10px 0 0 0 ;
+}
+
+.Footer-text span a{
+    color:#afafaf;
+}
+
+.Footer-text span a:hover{
+    color:#f44dfd;
+}
+
+
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+    
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1B1726;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 0px;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        text-align: center;
+        flex-basis: 100%;
+        margin: 30px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+
+    }
+
+    .butons {
+        justify-content: center;
+    }
+
+    .btn-1:last-of-type {
+        margin-right: 0;
+    }
+
+    .popular {
+        display: none;
+    }
+
+    .product {
+        padding: 30px;
+    }
+
+    .product-content {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .product-1 img {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input {
+        margin: 0 0 20px 0;
+    }
+
+    .footer {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul {
+        margin-top: 20px;
+    
+
+    }
+
+    .bienvenidos{
+        flex-direction: column;
+    }
+
+    .bienvenidos-1 {
+        display: none;
+    }
+    .bienvenidos-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    p{
+        margin: 15px 0;
+    }
+
+    .seccion-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+
+    .Footer-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer-text{
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .Footer-copyright {
+        text-align: center;
+    }
+
+    .Footer-la {
+        display: none;
+    }
+
+
+}
+
+/*Bienvenidos*/
+
+.bienvenidos {
+    display: flex;
+}
+
+.bienvenidos-1{
+    background-image: url(imagenes/a2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 50%;
+}
+
+.bienvenidos-2 {
+    width: 50%;
+    padding: 100px 150px 100px 100px;
+    background-color: #191919;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 100px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family:'Racing Sans One', cursive;
+    margin-bottom:20px;
+}
+
+p {
+    font-size: 16px;
+    color:#afafaf;
+    margin: 25px 0;
+}
+
+.b1 {
+    color: #f44dfd;
+}
+/*Mision Vision Logros*/
+
+.seccion .container {
+    display: flex;
+}
+
+
+.seccion-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #1B1726;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon {
+    color: #FFFFFF;
+}
+
+.card:hover{
+    background-color:#261948;
+    transition: 0.4s ease;
+}
+.card .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 28px;
+    color:#f44dfd;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5 ;
+    color:#afafaf;
+}
+
+
+.text-center {
+    color: #191919;
+    text-align: center;
+    padding: 10px;
+}
+/*footer*/
+.Footer .container {
+    display: flex;
+}
+
+.Footer__logo{
+    max-width: 13%;
+ }
+.Footer-1 .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.Footer-2 {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    cursor: pointer;
+}
+ 
+
+
+.Footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+
+
+.Footer-2 p {
+    margin: 10px 0 0 0 ;
+}
+
+.Footer-text span a{
+    color:#afafaf;
+}
+
+.Footer__divider{
+    border-color:#110e18;
+    height: 10px;
+}
+.Footer-text span a:hover{
+    color:#f44dfd;
+}
+
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+    
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1B1726;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        text-align: center;
+        flex-basis: 100%;
+        margin: 30px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+
+    }
+
+    .butons {
+        justify-content: center;
+    }
+
+    .btn-1:last-of-type {
+        margin-right: 0;
+    }
+
+    .popular {
+        display: none;
+    }
+
+    .product {
+        padding: 30px;
+    }
+
+    .product-content {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .product-1 img {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input {
+        margin: 0 0 20px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul {
+        margin-top: 20px;
+    
+
+    }
+
+    .bienvenidos{
+        flex-direction: column;
+    }
+
+    .bienvenidos-1 {
+        display: none;
+    }
+    .bienvenidos-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    p{
+        margin: 15px 0;
+    }
+
+    .seccion-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+
+    .Footer-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer__logo{
+        max-width: 35%;
+    }
+
+    .Footer-text{
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .Footer-copyright {
+        text-align: center;
+    }
+
+    .Footer-la {
+        display: none;
+    }
+
+
+}
